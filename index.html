@@ -9,9 +9,11 @@
     <script src="src/component/dynamic_title.js" defer></script>
 </head>
 <body>
-    <div class="container">
+    <div class="app-root">
 
-        <div class="card">
+        <!-- Código simples e direto -->
+
+        <!-- <div class="card">
             <div class="card-left">
                 <span class="span">By Guilherme Paiter</span>
                 <h1 class="h1">Darth Vader Contrata Devs</h1>
@@ -21,8 +23,13 @@
                 <img src="assets/dart_coffee.jpeg" alt="Darth Vader tomando café" srcset="">
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <card-news></card-news>
-    <dinamic-title title="Noticia urgente"></dinamic-title>
+    <card-news 
+        autor="Guilherme"
+        title="Darth Vader Contrata Devs"
+        link-url="www.google.com"
+        photo="assets/dart_coffee.jpeg"
+        content="Darth Vader procura programadores que sabem trabalhar com componentes!">
+    </card-news>
 </body>
